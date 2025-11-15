@@ -295,7 +295,14 @@ Transaction хранила product-атрибуты в каждой строке
 - customer_rawс_data.csv → таблица customer_raw
 - transaction_rawс_data.csv → таблица transaction_raw
 
+**customer_rawс_data**
+
 ![customer_raw](https://github.com/perceivery-mipt/DE_mipt/blob/main/diagram/customer_raw.png)
+
+---
+
+**transaction_rawс_data**
+
 ![transaction_raw](https://github.com/perceivery-mipt/DE_mipt/blob/main/diagram/transaction_raw.png)
 
 ---
@@ -310,9 +317,23 @@ Transaction хранила product-атрибуты в каждой строке
 4. Вставка всех клиентов → CUSTOMER  
 5. Вставка всех транзакций → TRANSACTION
 
+**CUSTOMER**
+
 ![CUSTOMER_insert](https://github.com/perceivery-mipt/DE_mipt/blob/main/diagram/CUSTOMER_insert.png)
+
+---
+
+**PRODUCT**
+
 ![PRODUCT_insert](https://github.com/perceivery-mipt/DE_mipt/blob/main/diagram/PRODUCT_insert.png)
+
+---
+
+**TRANSACTION**
+
 ![TRANSACTION_script](https://github.com/perceivery-mipt/DE_mipt/blob/main/diagram/TRANSACTION_script.png)
+
+---
 
 Фактические результаты загрузки:
 
